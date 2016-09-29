@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'myriad-bold';
+  src: url("../fonts/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+  font-family: 'myriad-regular';
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+@font-face {
+  font-family: 'myriad-semibold';
+  src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-color: #f8f8f8;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+body *, body *:before, body *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body header {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+body header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body header .container-logo {
+  display: table;
+  margin: 22px auto;
+}
+body header .container-logo .web-logo {
+  height: 66px;
+  width: 122px;
+  float: left;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: cover;
+}
+@media (min-width: 600px) {
+  body header .container-logo .web-logo {
+    height: 112px;
+    width: 208px;
+  }
+}
+body header .container-logo .tag {
+  height: 18px;
+  width: 100px;
+  float: left;
+  margin-top: 46px;
+  margin-left: 6px;
+  background: url("../images/stay-in.png") no-repeat center;
+  background-size: cover;
+}
+@media (min-width: 600px) {
+  body header .container-logo .tag {
+    height: 30px;
+    width: 164px;
+    margin-top: 82px;
+    margin-left: 20px;
+  }
+}
+body header nav {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aac39c;
+}
+body header nav:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body header nav ul {
+  display: table;
+  margin: auto;
+}
+body header nav ul li {
+  float: left;
+}
+body header nav ul li a {
+  color: #383838;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 6px;
+}
+@media (min-width: 600px) {
+  body header nav ul li a {
+    padding: 8px 34px;
+  }
+}
+body header nav ul li a:hover {
+  color: #d6572e;
+  text-decoration: none;
+}
+body header nav ul li .active-item {
+  color: #d6572e;
+}
+body main {
+  background-color: #c7e2b7;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .content {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: table;
+}
+body main .content:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .content .image {
+  padding: 20px 0;
+}
+body main .content .image img {
+  width: 100%;
+}
+body main .content .m-top {
+  margin-top: 20px;
+}
+body main .content .image-small {
+  height: 70px;
+  width: 130px;
+  margin: auto;
+  margin: 30px auto;
+}
+body main .content .image-small img {
+  width: 100%;
+}
+body main .content p {
+  text-align: left;
+  text-indent: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #21753a;
+  padding: 10px 0;
+}
+body main .content a {
+  text-decoration: none;
+  color: #d6572e;
+}
+body main .content h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #d6572e;
+}
+body main .content h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 4px;
+}
+body main .content table {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 12px 6px;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: 1px solid #94a98a;
+}
+body main .content table:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .content table th {
+  font-size: 16px;
+  padding: 4px;
+  text-align: center;
+  color: #d6572e;
+}
+body main .content table th:first-child {
+  text-align: left;
+  padding: 4px 12px;
+}
+body main .content table th span {
+  display: block;
+  font-size: 12px;
+}
+body main .content table td {
+  font-size: 14px;
+  text-align: center;
+  color: #383838;
+  padding: 6px 12px;
+}
+body main .content table td:first-child {
+  text-align: left;
+}
+body main .content .contact-details ul {
+  padding: 24px 0;
+}
+body main .content .contact-details ul li p {
+  font-size: 14px;
+  text-align: center;
+  color: #383838;
+  padding: 0;
+  line-height: 22px;
+}
+body main .attraction .title p {
+  text-align: center;
+  text-indent: 0;
+  padding-top: 22px;
+}
+body main .attraction p {
+  text-align: left;
+  text-indent: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #383838;
+}
+body main .tarrif {
+  padding-top: 32px;
+}
+body footer {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+body footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body footer p {
+  text-align: center;
+  padding: 24px;
+}
